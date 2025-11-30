@@ -301,8 +301,7 @@ sizes语法如下：
 ```html
 sizes="[media query] [length], [media query] [length] ... "
 ```
-
-sizes就是指默认显示128px, 如果视区宽度大于360px, 则显示340px。
+媒体查询使用值340px后跟默认值(如果不满足媒体查询条件，就使用默认值128px)
 
 ### 8.  行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？
 
